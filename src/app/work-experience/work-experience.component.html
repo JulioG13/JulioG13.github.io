@@ -13,8 +13,14 @@
         <td>Empresa: {{ work.empresa }}</td>
       </tr>
 
-      <h4> Logros: </h4>
-      <ul *ngFor="let logro of work.logros">
+      <h4> Idiomas: </h4>
+      <ul *ngFor="let logro of work.idiomas">
+        <li>
+          <tr>{{ logro.descripcion }}</tr>
+        </li>
+      </ul>
+      <h4> Lenguajes: </h4>
+      <ul *ngFor="let logro of work.lenguajes">
         <li>
           <tr>{{ logro.descripcion }}</tr>
         </li>

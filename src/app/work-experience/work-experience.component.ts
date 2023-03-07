@@ -18,35 +18,32 @@ export class WorkExperienceComponent {
 
     let work1 = {
       fecha: "2022-2023",
-      ubicacion: "Monterrey, Nuevo Leon",
+      ubicacion: "Monterrey, Nuevo León",
       puesto: "Intern en Process y IT",
       empresa: "CEMEX",
-      logros: [
-        { descripcion: "Agilización de documentación administrativa" },
+      idiomas: [
+        { descripcion: "Inglés B2" },
+      ],
+      lenguajes: [
+        {
+          descripcion: "C++ , Pyhton"
+        },
       ]
     };
-
-    let education1 = {
-      grado: "Secundaria",
-      fechas: "2012-2015",
-      escuela: "Instituto Cultural de Occidente",
-    }
 
     let education2 = {
       grado: "Preparatoria",
       fechas: "2015-2018",
-      escuela: "Instituto Cultural de Occidente",
+      escuela: "PREPA TEC: CAMPUS CEGL",
     }
 
     let education3 = {
       grado: "Ingeniería en Tecnologías Computacionales",
-      fechas: "2020 hasta la actualidad",
+      fechas: "2019 hasta la actualidad",
       escuela: "ITESM",
     }
 
     this.workExperience.push(work1);
-
-    this.educationList.push(education1);
     this.educationList.push(education2);
     this.educationList.push(education3);
 
