@@ -17,10 +17,10 @@ export class WorkExperienceComponent {
   ngOnInit(): void {
 
     let work1 = {
-      fecha: "2019-2020",
-      ubicacion: "Mazatlán, Sinaloa",
-      puesto: "Ayudante Administrativo",
-      empresa: "Impulsa Inmuebles",
+      fecha: "2022-2023",
+      ubicacion: "Monterrey, Nuevo Leon",
+      puesto: "Intern en Process y IT",
+      empresa: "CEMEX",
       logros: [
         { descripcion: "Agilización de documentación administrativa" },
       ]
