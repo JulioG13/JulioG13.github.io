@@ -1,0 +1,2 @@
+C:\Users\alfre\Documents\Visual Studio\6TO SEMESTRE\myCV\myCV\obj\Debug\myCV.esproj.SuggestedBindingRedirects.cache
+C:\Users\alfre\Documents\Visual Studio\6TO SEMESTRE\myCV\myCV\obj\Debug\myCV.esproj.CoreCompileInputs.cache
